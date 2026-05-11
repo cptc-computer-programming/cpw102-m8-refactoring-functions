@@ -12,12 +12,12 @@ SHORT_MONTH_DAYS = 30 # Apr, Jun, Sep, Nov
 # -----------------------------
 # User Input
 # -----------------------------
-in_month = int(input("Enter a month (1–12): "))
-in_day = int(input("Enter a day (1–31): "))
+user_month = int(input("Enter a month (1–12): "))
+user_day = int(input("Enter a day (1–31): "))
 
 # Copy input values so we can keep originals for final output
-month = in_month
-day = in_day
+month = user_month
+day = user_day
 
 # -----------------------------
 # Add 7 days
@@ -52,5 +52,5 @@ if month > 12:
 # -----------------------------
 # Output
 # -----------------------------
-print("A week after " + str(in_month) + "/" + str(in_day) +
+print("A week after " + str(user_month) + "/" + str(user_day) +
       " is " + str(month) + "/" + str(day))

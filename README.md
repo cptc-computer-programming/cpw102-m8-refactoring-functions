@@ -4,7 +4,7 @@
 
 In this assignment, you will practice refactoring Python code using functions to improve readability, organization, testing, and maintainability.
 
-You will work from starter code provided in Canvas and reorganize the program into reusable functions.
+You will work from starter code and reorganize the program into reusable functions.
 
 ## Learning Objectives
 
@@ -17,9 +17,7 @@ You will work from starter code provided in Canvas and reorganize the program in
 
 # Requirements
 
-Edit the code in the file `one_week_later.py`
-
-Your program must refactor the provided starter code according to the specifications below.
+Your program must refactor the provided starter code according to the specifications below. Edit the starter code in the file `one_week_later.py`.
 
 ---
 
